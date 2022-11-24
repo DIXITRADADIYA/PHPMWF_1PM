@@ -1,0 +1,15 @@
+body 
+{
+    background-color: aqua;
+}
+h1 
+{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+hr 
+{
+    border: solid 2px red;
+    width: 30%;
+}
