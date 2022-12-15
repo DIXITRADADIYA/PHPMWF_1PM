@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>page itle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+        }
+
+        ul {
+            background-color: blueviolet;
+            margin-top: 0%;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 10px 15px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+
+        a:hover {
+            color: chartreuse;
+        }
+
+        div {
+            width: 45%;
+            height: auto;
+            margin-left: 20px;
+            background-color: black;
+            margin-top: 1px;
+            display: flex;
+            flex-direction:row ;
+            float: left;
+            margin: 25px;
+        }
+
+        div p {
+            color: aliceblue;
+            padding: 25px;
+            text-align: center;
+        }
+        label
+        {
+            color: aliceblue;
+            padding: 15px;
+        }
+        form
+        {
+            width: 55%;
+            height:auto;
+            margin: auto;
+            padding: 25PX;
+        }
+        input
+        {
+            width: 300px;
+            height: auto;
+            padding: 8px;
+        }
+        input[type="submit"]
+        {
+            width: 150px;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">services</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">account</a></li>
+        <li><a href="">offers</a></li>
+    </ul>
+
+    <!--div start here-->
+   
+    
+    <div>
+        <p align="center"><span style="color:red; font-size:25px;">register</span>
+            <span style="color:green;font-size: 25px;">FORM</span></p>
+
+            <form method="post" id="frm" name="frm" action="" enctype="multipart/form-data">
+                <label>Enter Email *</label>
+                <input type="text" name="e mail" placeholder="Email *" required>
+                <br></br>
+
+                <label>Enter password *</label>
+                <input type="password" name="pass" placeholder="password *" required>
+                <br></br>
+
+                <label>confirm password *</label>
+                <input type="password" name="cpass" placeholder="confirm password *" required>
+                <br></br>
+
+                <label>Enter phone no. *</label>
+                <input type="NUMBER" name="phone" placeholder="phone *" required>
+                <br></br>
+
+                <input type="submit" name="sub" value="Login">
+                <a href="">forget password</a>
+                <br></br>
+
+                 
+                <label>upload photo *</label>
+                <input type="file" name="photo" required>
+                <br></br>
+
+                <label>address *</label>
+                <textarea name="address" required rows="5" cols="28"></textarea>
+                <br></br>
+
+                <label>Gender *</label>
+                <b style="color:white;">male </b>input type="radio" name="gender"
+                  required style="width: auto; height: auto;">
+            
+
+                <b style="color:white;">female </b>input type="radio" name="gender"
+                required style="width: auto; height: auto;">
+              <br></br>
+
+              <label>hobies *</label>
+              <b style="color:white;">reading </b>input type="checkbox" name="hobby"
+                required style="width: auto; height: auto;">
+          
+
+              <b style="color:white;">writing </b>input type="checkbox" name="hobby"
+              required style="width: auto; height: auto;">
+
+              <b style="color:white;">playing</b>input type="checkbox" name="hobby"
+              required style="width: auto; height: auto;">
+
+              <b style="color:white;">cooking </b>input type="checkbox" name="hobby"
+              required style="width: auto; height: auto;">
+            <br></br>
+
+
+                
+
+                <input type="submit" name="sub" value="register">
+
+                <input type="reset" name="sub" value="reset">
+                <b> already have  an account ?<a href="form.html">login here</a>
+
+                <b style="color: aliceblue;">don't have a account ? <a href="register.html">creat account</a></b>
+                </b>
+
+            </form>
+    </div>
+    
+
+</body>
+
+</html>
