@@ -1,0 +1,57 @@
+body
+{
+    margin: 01;
+    padding: 01;
+    overflow-x: hidden;
+    background-color: greenyellow;
+}
+
+.reg-form 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(6, 126, 118, 0.2);
+    margin-top: 5%;
+}
+table 
+{
+    margin: 10px !important;
+    padding: 15px;
+}
+.row1
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    margin-left: 5%;
+    background-color: yellowgreen;
+    border: solid 1px rgb(172, 128, 128) !important;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+input[type="text"],textarea
+{
+    width: 80%;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    margin-top: 2%;
+
+}
+
+input[type="submit"]
+{
+    width: 30%;
+    height: auto;
+    margin: 25px;
+    padding: 10px;
+    margin-left: 35%;
+    background-color: sienna !important;
+    border: none;
+    color: rgb(237, 158, 158);
+    margin-top: 2%;
+    border-radius: 15px;
+}

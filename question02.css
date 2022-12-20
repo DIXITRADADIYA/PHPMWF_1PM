@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #581069;
+}
+.main-content
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    margin-top: 4%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.my-profile 
+{
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    border-right: solid 2px lightgray;
+}
+img
+{
+    width: 90px;
+    height: 90px;
+}
+.my-data 
+{
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    border-right: solid 2px lightgray;
+    text-align: left !important;
+}
+
+.edit-experience
+{
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    text-align: left !important;
+}
+
+#btn 
+{
+
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border: solid 1px lightgray !important;
+    border: none;
+    color: black;
+}
+
+input[type="text"]
+{
+    width: 150px;
+    height: auto;
+    padding: 5px;
+
+}
+button
+{
+    background-color: #581069;
+    align:"center"
+}
