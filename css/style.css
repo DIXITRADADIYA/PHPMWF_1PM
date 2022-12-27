@@ -1,0 +1,65 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: lightblue;
+    background: url(https://thumbs.dreamstime.com/b/abstract-autumn-background-beautiful-leaves-texture-34325133.jpg) no-repeat;
+     background-size: cover;
+    
+    
+    
+    }
+     .navbar-brand
+     {
+    
+    color: aquamarine;
+    margin-left: 8%;
+    
+    }
+        
+    .navbar-link li
+    {
+    
+    display: inline-block;
+    padding: 5px 25px;
+    
+    }
+    
+    .navbar-link a{
+    
+    text-decoration: none;
+    list-style-type:none;
+    color: aliceblue;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .navbar{
+    
+    height: 100px;
+    width: auto;
+    background-color: black;
+    
+    }
+    
+    .form{
+    
+    background-color: darkgrey;
+    
+    }
+    
+    
+    .form{
+      margin-top: 50px;
+    
+    
+    
+    
+    }
+    
